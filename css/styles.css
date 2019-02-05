@@ -70,8 +70,8 @@ input[type="email"],
 margin-top: 15px;
 margin-bottom: 30px;
 height: 60px;
-width: 100%;
 border-radius: 5px;
+width: 100%;
 border: none;
 background-color: #eff0f1;
 padding-right: 20px;
@@ -86,6 +86,7 @@ label, p  {
 color: #aaafb4;
 font-weight: 300;
 }
+
 
 input[placeholder] {
 text-align: right;
@@ -115,7 +116,7 @@ line-height: 1.5em;
 font-weight: 300;
 }
 
-#HTML, #CSS, #Javascript, #Plain_text {
+#HTML, #CSS, #Javascript, #Plain_text, #HTML_format {
   margin-right: 12px;
 }
 
@@ -129,6 +130,7 @@ margin-top: 20px;
 
 .newsletter p {
 margin-top: 20px;
+margin-bottom: 10px;
 }
 
 textarea {
@@ -165,7 +167,19 @@ footer p {
   display: table;
 }
 
+#Plain_text {
+  margin-bottom: 15px;
+}
 
+input:focus,
+textarea:focus {
+  border: 3px solid #4ebbb5;
+  outline: none;
+}
+
+footer {
+  background-color: #2d3945;
+}
 
 @media (min-width:768px) {
 
@@ -174,16 +188,21 @@ footer p {
 }
 
 
-label {
+.contact label {
   display: inline-block;
   width: 25%;
   margin-right: -5px;
 }
 
-input {
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+#state, textarea {
   display: inline-block;
   width: 75%;
 }
-
+textarea {
+  width: 100%;
+}
 
 }

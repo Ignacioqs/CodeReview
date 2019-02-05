@@ -29,22 +29,22 @@
             <legend id="contact">Contact Information</legend>
 
 
-              <label for="name">Full Name</label><br>
-              <input type="text" id="name" name="user_name" placeholder="Required &nbsp"><br>
+              <label for="name">Full Name</label>
+              <input required type="text" id="name" name="user_name" placeholder="Required">
 
-              <label for="email">Email Address</label><br>
-              <input type="email" id="email" name="user_email" placeholder="Required &nbsp"><br>
+              <label for="email">Email Address</label>
+              <input required type="email" id="email" name="user_email" placeholder="Required">
 
-              <label for="phone">Phone Number</label><br>
-              <input type="tel" id="phone" name="user_phone"><br>
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="user_phone" placeholder="mobile">
 
-              <label for="address">Street Address</label><br>
-              <input type="text" id="address" name="user_address"><br>
+              <label for="address">Street Address</label>
+              <input type="text" id="address" name="user_address">
 
-              <label for="city">City</label><br>
-              <input type="text" id="city" name="user_city"><br>
+              <label for="city">City</label>
+              <input type="text" id="city" name="user_city">
 
-              <label for="state">State</label><br>
+              <label for="state">State</label>
               <select id="state" name="state">
               <option value="choose_state">Choose State</option>
               <option value="alabama">Alabama</option>
@@ -97,42 +97,43 @@
               <option value="west_virginia">West Virginia</option>
               <option value="wisconsin">Wisconsin</option>
               <option value="wyoming">Wyoming</option>
-              </select><br>
+              </select>
 
-              <label for="zipcode">Zip Code</label><br>
+              <label for="zipcode">Zip Code</label>
               <input type="text" id="zipcode" name="user_zipcode">
           </fieldset>
-        </div><!--contact-->
+        </div>
 
         <div class="newsletter">
           <fieldset>
             <legend id="newsletter">Newsletter</legend>
 
-            <label>Select the newsletters you would like to recieve</label><br>
+            <label class="select">Select the newsletters you would like to recieve</label><br>
 
             <input type="checkbox" id="HTML" value="HTML_news" name="newsletter"><label for="HTML">HTML News</label><br>
             <input type="checkbox" id="CSS" value="CSS_news" name="newsletter"><label for="CSS">CSS News</label><br>
             <input type="checkbox" id="Javascript" value="Javascript_news" name="newsletter"><label for="Javascript">Javascript News</label><br>
 
-            <label>Newsletter format</label><br>
-            <input type="radio" id="HTML" value="HTML" name="newsletter_format" ><label for="HTML">HTML</label><br>
+            <label class="select">Newsletter format</label><br>
+            <input type="radio" id="HTML_format" value="HTML" name="newsletter_format" ><label for="HTML">HTML</label><br>
             <input type="radio" id="Plain_text" value="Plain_text" name="newsletter_format"><label for="Plain_text">Plain text</label><br>
 
             <p>Other topics you'd like to hear about</p>
 
             <label for="topics"></label>
-            <textarea id="topics" name="user_topics"></textarea><br>
+            <textarea id="topics" name="user_topics"></textarea>
           </fieldset>
         </div><!--/newsletter-->
 
         <button type="submit">Sign Up</button>
 
+</div><!--/container-->
         <footer>
           <p>Copyright The Code Review</p>
         </footer>
       </form>
 
-    </div><!--/container-->
+
 
   </body>
 </html>
