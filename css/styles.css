@@ -75,6 +75,7 @@ width: 100%;
 border: none;
 background-color: #eff0f1;
 padding-right: 20px;
+transition: background-color 1.5s;
 }
 
 #contact, #newsletter {
@@ -175,6 +176,7 @@ input:focus,
 textarea:focus {
   border: 3px solid #4ebbb5;
   outline: none;
+  background-color: lightgrey;
 }
 
 footer {
