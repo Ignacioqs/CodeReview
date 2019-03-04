@@ -129,10 +129,6 @@ margin-top: 20px;
   margin-bottom: 30px;
 }
 
-.newsletter p {
-margin-top: 20px;
-margin-bottom: 10px;
-}
 
 textarea {
   min-height: 120px;
@@ -169,7 +165,7 @@ footer p {
 }
 
 #Plain_text {
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 
 input:focus,
